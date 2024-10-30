@@ -1,0 +1,2073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-03 16:04+0300\n"
+"PO-Revision-Date: 2024-03-03 16:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: Maxim Glazunov <djdiplomat477@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c\n"
+"X-Poedit-SearchPath-0: extensions.php\n"
+"X-Poedit-SearchPath-1: functions.php\n"
+"X-Poedit-SearchPath-2: import-products-to-ok-ru.php\n"
+"X-Poedit-SearchPath-3: packages.php\n"
+"X-Poedit-SearchPath-4: sandbox.php\n"
+"X-Poedit-SearchPath-5: uninstall.php\n"
+"X-Poedit-SearchPath-6: classes/generation/traits/common/trait-ip2ok-t-common-"
+"get-catid.php\n"
+"X-Poedit-SearchPath-7: classes/generation/traits/common/trait-ip2ok-t-common-"
+"skips.php\n"
+"X-Poedit-SearchPath-8: classes/generation/traits/global/traits-ip2ok-global-"
+"variables.php\n"
+"X-Poedit-SearchPath-9: classes/generation/class-ip2ok-generation-xml.php\n"
+"X-Poedit-SearchPath-10: classes/generation/class-ip2ok-ok-ru-api.php\n"
+"X-Poedit-SearchPath-11: classes/generation/class-ip2ok-ok-ru-api-helper.php\n"
+"X-Poedit-SearchPath-12: classes/generation/class-ip2ok-ok-ru-api-helper-"
+"simple.php\n"
+"X-Poedit-SearchPath-13: classes/generation/class-ip2ok-ok-ru-api-helper-"
+"variable.php\n"
+"X-Poedit-SearchPath-14: classes/system/class-ip2ok.php\n"
+"X-Poedit-SearchPath-15: classes/system/class-ip2ok-data-arr.php\n"
+"X-Poedit-SearchPath-16: classes/system/class-ip2ok-debug-page.php\n"
+"X-Poedit-SearchPath-17: classes/system/class-ip2ok-error-log.php\n"
+"X-Poedit-SearchPath-18: classes/system/class-ip2ok-feedback.php\n"
+"X-Poedit-SearchPath-19: classes/system/class-ip2ok-plugin-form-activate.php\n"
+"X-Poedit-SearchPath-20: classes/system/class-ip2ok-plugin-upd.php\n"
+"X-Poedit-SearchPath-21: classes/system/class-ip2ok-settings-page.php\n"
+"X-Poedit-SearchPath-22: classes/system/class-ip2ok-wp-list-table.php\n"
+"X-Poedit-SearchPath-23: includes/backward-compatibility.php\n"
+"X-Poedit-SearchPath-24: includes/icopydoc-useful-functions.php\n"
+"X-Poedit-SearchPath-25: includes/old-php-add-functions.php\n"
+"X-Poedit-SearchPath-26: includes/wc-add-functions.php\n"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper-simple.php:81
+#: classes/generation/class-ip2ok-ok-ru-api-helper-variable.php:92
+msgid "the product does not have a photo"
+msgstr "у товара нет фотографии"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper-simple.php:109
+msgid "description"
+msgstr "описание"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper-simple.php:145
+#: classes/generation/class-ip2ok-ok-ru-api-helper-variable.php:152
+msgid "Missing pictures"
+msgstr "Отсутствуют фото"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper-simple.php:164
+#: classes/generation/class-ip2ok-ok-ru-api-helper-variable.php:113
+#: classes/generation/class-ip2ok-ok-ru-api-helper-variable.php:171
+msgid "Missing description"
+msgstr "Отсутствует описание"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper.php:39
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:31
+msgid "There is no product with this ID"
+msgstr "Нет товара с таким ID"
+
+#: classes/generation/class-ip2ok-ok-ru-api-helper.php:88
+msgid "The product is not simple or variable"
+msgstr "Товар не является простым или вариативным"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-get-catid.php:95
+msgid "The product has no categories"
+msgstr "У товара нет категорий"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:35
+msgid "Product is grouped"
+msgstr "Сгруппированный товар"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:39
+msgid "Product is External/Affiliate product"
+msgstr "Внешний/Партнерский товар"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:43
+msgid "The product status/visibility is"
+msgstr "Статус/видимость товара"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:50
+msgid "Product is simple"
+msgstr "Простой товар"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:55
+msgid "Product is variable"
+msgstr "Вариативный товар"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:68
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:93
+#: classes/system/class-ip2ok-data-arr.php:297
+msgid "Skip missing products"
+msgstr "Исключать товары которых нет в наличии"
+
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:77
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:81
+#: classes/generation/traits/common/trait-ip2ok-t-common-skips.php:102
+#: classes/system/class-ip2ok-data-arr.php:315
+msgid "Skip backorders products"
+msgstr "Исключать из фида товары для предзаказа"
+
+#: classes/system/class-ip2ok-data-arr.php:91
+msgid "Application ID"
+msgstr "ID приложения"
+
+#: classes/system/class-ip2ok-data-arr.php:92
+#: classes/system/class-ip2ok-data-arr.php:105
+#: classes/system/class-ip2ok-data-arr.php:144
+msgid "from a letter from OK.ru"
+msgstr "из письма от OK.ru"
+
+#: classes/system/class-ip2ok-data-arr.php:104
+msgid "Public key"
+msgstr "Публичный ключ"
+
+#: classes/system/class-ip2ok-data-arr.php:117
+msgid "Group ID"
+msgstr "ID группы"
+
+#: classes/system/class-ip2ok-data-arr.php:118
+msgid "from the settings of the group to which we export products"
+msgstr "из настроек группы, в которую мы экспортируем товары"
+
+#: classes/system/class-ip2ok-data-arr.php:130
+msgid "Access token"
+msgstr "Токен"
+
+#: classes/system/class-ip2ok-data-arr.php:131
+msgid "from the app settings"
+msgstr "из настроек приложения"
+
+#: classes/system/class-ip2ok-data-arr.php:143
+msgid "Private key"
+msgstr "Секретный ключ"
+
+#: classes/system/class-ip2ok-data-arr.php:157
+msgid "Syncing with OK.ru"
+msgstr "Синхронизация с OK.ru"
+
+#: classes/system/class-ip2ok-data-arr.php:158
+msgid "Using this parameter, you can stop the plugin completely"
+msgstr "Используя этот параметр, вы можете полностью остановить работу плагина"
+
+#: classes/system/class-ip2ok-data-arr.php:161
+#: classes/system/class-ip2ok-data-arr.php:179
+#: classes/system/class-ip2ok-data-arr.php:284
+#: classes/system/class-ip2ok-data-arr.php:301
+#: classes/system/class-ip2ok-data-arr.php:319
+#: classes/system/class-ip2ok-data-arr.php:336
+msgid "Disabled"
+msgstr "Отключено"
+
+#: classes/system/class-ip2ok-data-arr.php:162
+#: classes/system/class-ip2ok-data-arr.php:285
+#: classes/system/class-ip2ok-data-arr.php:302
+#: classes/system/class-ip2ok-data-arr.php:320
+#: classes/system/class-ip2ok-data-arr.php:337
+msgid "Enabled"
+msgstr "Включено"
+
+#: classes/system/class-ip2ok-data-arr.php:175
+msgid "The frequency of full synchronization of products"
+msgstr "Частота полной синхронизации товаров"
+
+#: classes/system/class-ip2ok-data-arr.php:176
+msgid ""
+"With the specified frequency, the plugin will transmit information about all "
+"your products to OK.ru"
+msgstr ""
+"С заданной периодичностью плагин будет передавать информацию обо всех ваших "
+"товарах на OK.ru"
+
+#: classes/system/class-ip2ok-data-arr.php:180
+#: classes/system/class-ip2ok-wp-list-table.php:124
+msgid "Hourly"
+msgstr "Раз в час"
+
+#: classes/system/class-ip2ok-data-arr.php:181
+#: classes/system/class-ip2ok-wp-list-table.php:127
+msgid "Every six hours"
+msgstr "Каждые 6 часов"
+
+#: classes/system/class-ip2ok-data-arr.php:182
+#: classes/system/class-ip2ok-wp-list-table.php:130
+msgid "Twice a day"
+msgstr "2 раза в день"
+
+#: classes/system/class-ip2ok-data-arr.php:183
+#: classes/system/class-ip2ok-wp-list-table.php:133
+msgid "Daily"
+msgstr "Раз в день"
+
+#: classes/system/class-ip2ok-data-arr.php:184
+#: classes/system/class-ip2ok-wp-list-table.php:136
+msgid "Once a week"
+msgstr "Раз в неделю"
+
+#: classes/system/class-ip2ok-data-arr.php:196
+msgid "Step export"
+msgstr "Шаг экспорта"
+
+#: classes/system/class-ip2ok-data-arr.php:197
+msgid ""
+"Determines the maximum number of products uploaded to OK.ru in one minute"
+msgstr ""
+"Определяет максимальное количество товаров, загружаемых на OK.ru за одну "
+"минуту"
+
+#: classes/system/class-ip2ok-data-arr.php:205
+msgid "The maximum value allowed by OK.ru"
+msgstr "Максимальное значение, разрешенное OK.ru"
+
+#: classes/system/class-ip2ok-data-arr.php:217
+msgid "Image upload method"
+msgstr "Метод загрузки изображений"
+
+#: classes/system/class-ip2ok-data-arr.php:218
+msgid "If you use a separate server for storing images, then select"
+msgstr ""
+"Если вы используете отдельный сервер для хранения изображений, выберите"
+
+#: classes/system/class-ip2ok-data-arr.php:234
+msgid "Categories on OK.ru"
+msgstr "Категории на OK.ru"
+
+#: classes/system/class-ip2ok-data-arr.php:236
+msgid "If you set the value"
+msgstr "Если вы установите значение"
+
+#: classes/system/class-ip2ok-data-arr.php:237
+#: classes/system/class-ip2ok-data-arr.php:245
+msgid "Always update"
+msgstr "Всегда обновлять"
+
+#: classes/system/class-ip2ok-data-arr.php:238
+msgid "then with each import, the covers in the product catalog may be lost"
+msgstr "то при каждом импорте обложки в каталоге товаров могут теряться"
+
+#: classes/system/class-ip2ok-data-arr.php:240
+#: classes/system/class-ip2ok-plugin-form-activate.php:85
+#: classes/system/class-ip2ok-plugin-form-activate.php:99
+#: classes/system/class-ip2ok-settings-page.php:383
+#: classes/system/class-ip2ok-settings-page.php:389
+#: classes/system/class-ip2ok-settings-page.php:395
+#: classes/system/class-ip2ok-settings-page.php:401
+#: classes/system/class-ip2ok-settings-page.php:407
+#: classes/system/class-ip2ok-settings-page.php:413
+#: classes/system/class-ip2ok-settings-page.php:419
+#: classes/system/class-ip2ok-settings-page.php:425
+#: classes/system/class-ip2ok-settings-page.php:431
+#: classes/system/class-ip2ok-settings-page.php:437
+msgid "Read more"
+msgstr "Подробнее"
+
+#: classes/system/class-ip2ok-data-arr.php:244
+msgid "Update once"
+msgstr "Обновить один раз"
+
+#: classes/system/class-ip2ok-data-arr.php:246
+msgid "Do not update"
+msgstr "Не обновлять"
+
+#: classes/system/class-ip2ok-data-arr.php:258
+msgid "Description of the product"
+msgstr "Описание товара"
+
+#: classes/system/class-ip2ok-data-arr.php:259
+msgid "The source of the description"
+msgstr "Источник описания товара"
+
+#: classes/system/class-ip2ok-data-arr.php:262
+msgid "Only Excerpt description"
+msgstr "Только Краткое описание"
+
+#: classes/system/class-ip2ok-data-arr.php:263
+msgid "Only Full description"
+msgstr "Только Полное описание"
+
+#: classes/system/class-ip2ok-data-arr.php:264
+msgid "Excerpt or Full description"
+msgstr "Краткое или Полное описание"
+
+#: classes/system/class-ip2ok-data-arr.php:265
+msgid "Full or Excerpt description"
+msgstr "Полное или Краткое описание"
+
+#: classes/system/class-ip2ok-data-arr.php:266
+msgid "Excerpt plus Full description"
+msgstr "Краткое плюс Полное описание"
+
+#: classes/system/class-ip2ok-data-arr.php:267
+msgid "Full plus Excerpt description"
+msgstr "Полное плюс Краткое описание"
+
+#: classes/system/class-ip2ok-data-arr.php:280
+msgid "The varition description takes precedence over others"
+msgstr "Описание вариации имеет приоритет над другими"
+
+#: classes/system/class-ip2ok-data-arr.php:297
+msgid "except for products for which a pre-order is permitted"
+msgstr "за исключением товаров, для которых разрешен предварительный заказ"
+
+#: classes/system/class-ip2ok-data-arr.php:332
+msgid "Old price"
+msgstr "Старая цена"
+
+#: classes/system/class-ip2ok-data-arr.php:333
+msgid ""
+"In oldprice indicates the old price of the goods, which must necessarily be "
+"higher than the new price (price)"
+msgstr ""
+"В oldprice указывается старая цена товара, которая обязательно должна быть "
+"выше новой цены (price)"
+
+#: classes/system/class-ip2ok-debug-page.php:47
+#: classes/system/class-ip2ok.php:232
+msgid "Debug page"
+msgstr "Страница отладки"
+
+#: classes/system/class-ip2ok-debug-page.php:87
+msgid "Logs"
+msgstr "Логи"
+
+#: classes/system/class-ip2ok-debug-page.php:93
+msgid "Log-file here"
+msgstr "Логи тут"
+
+#: classes/system/class-ip2ok-debug-page.php:100
+msgid "Keep logs"
+msgstr "Вести логи"
+
+#: classes/system/class-ip2ok-debug-page.php:103
+msgid "Clear logs"
+msgstr "Очистить логи"
+
+#: classes/system/class-ip2ok-debug-page.php:109
+msgid "Do not check this box if you are not a developer"
+msgstr "Не устанавливайте этот флажок, если вы не разработчик"
+
+#: classes/system/class-ip2ok-debug-page.php:114
+msgid "Disable notices"
+msgstr "Отключить уведомления"
+
+#: classes/system/class-ip2ok-debug-page.php:119
+msgid "Disable notices about the import of products"
+msgstr "Отключить уведомления об импорте товаров"
+
+#: classes/system/class-ip2ok-debug-page.php:124
+msgid "Enable"
+msgstr "Включить"
+
+#: classes/system/class-ip2ok-debug-page.php:129
+msgid "Enable the five minute interval for CRON"
+msgstr "Включить пятиминутный интервал для CRON"
+
+#: classes/system/class-ip2ok-debug-page.php:143
+#: classes/system/class-ip2ok-settings-page.php:112
+#: classes/system/class-ip2ok-settings-page.php:114
+msgid "Save"
+msgstr "Сохранить"
+
+#: classes/system/class-ip2ok-debug-page.php:145
+#: classes/system/class-ip2ok-settings-page.php:118
+msgid "Click to save the settings"
+msgstr "Нажмите, чтобы сохранить настройки"
+
+#: classes/system/class-ip2ok-debug-page.php:160
+msgid "Request simulation"
+msgstr "Симуляция запроса"
+
+#: classes/system/class-ip2ok-debug-page.php:231
+msgid "Feed"
+msgstr "Фид"
+
+#: classes/system/class-ip2ok-debug-page.php:249
+msgid "Simulated"
+msgstr "Симуляция"
+
+#: classes/system/class-ip2ok-debug-page.php:259
+msgid "Possible problems"
+msgstr "Возможные проблемы"
+
+#: classes/system/class-ip2ok-debug-page.php:267
+msgid "Self-diagnosis functions did not reveal potential problems"
+msgstr "Функции самодиагностики не выявили потенциальных проблем"
+
+#: classes/system/class-ip2ok-debug-page.php:278
+msgid "Sandbox"
+msgstr "Песочница"
+
+#: classes/system/class-ip2ok-debug-page.php:302
+msgid ""
+"Your site has no global attributes! This may affect the quality of the "
+"import to ok.ru. This can also cause difficulties when setting up the plugin"
+msgstr ""
+"Ваш сайт не имеет глобальных атрибутов! Это может повлиять на качество "
+"импорта в ok.ru. Это также может вызвать трудности при настройке плагина"
+
+#: classes/system/class-ip2ok-debug-page.php:302
+msgid "Please read the recommendations"
+msgstr "Пожалуйста, прочитайте рекомендации"
+
+#: classes/system/class-ip2ok-debug-page.php:346
+msgid "Most likely, these plugins negatively affect the operation of"
+msgstr "Скорее всего, эти плагины негативно влияют на работу"
+
+#: classes/system/class-ip2ok-debug-page.php:346
+msgid ""
+"If you are a developer of one of the plugins from the list above, please "
+"contact me"
+msgstr ""
+"Если вы разработчик одного из плагинов из списка выше, пожалуйста, свяжитесь "
+"со мной"
+
+#: classes/system/class-ip2ok-debug-page.php:386
+#: classes/system/class-ip2ok.php:181
+msgid "Updated"
+msgstr "Обновлено"
+
+#: classes/system/class-ip2ok-debug-page.php:402
+msgid "Logs were cleared"
+msgstr "Логи были очищены"
+
+#: classes/system/class-ip2ok-debug-page.php:405
+msgid "Error accessing log file. The log file may have been deleted previously"
+msgstr "Ошибка доступа к log-файлу. Возможно log-файл был удален ранее"
+
+#: classes/system/class-ip2ok-feedback.php:46
+msgid "Send data about the work of the plugin"
+msgstr "Отправить данные о работе плагина"
+
+#: classes/system/class-ip2ok-feedback.php:50
+msgid "Sending statistics you help make the plugin even better"
+msgstr "Отправляя статистику, вы помогаете сделать плагин еще лучше"
+
+#: classes/system/class-ip2ok-feedback.php:51
+msgid "The following data will be transferred"
+msgstr "Следующие данные будут переданы"
+
+#: classes/system/class-ip2ok-feedback.php:55
+msgid "PHP version information"
+msgstr "Информация о PHP версии"
+
+#: classes/system/class-ip2ok-feedback.php:58
+msgid "Multisite mode status"
+msgstr "Включен ли режим multisite"
+
+#: classes/system/class-ip2ok-feedback.php:61
+msgid "Technical information and plugin logs"
+msgstr "Техническая информация и логи плагина"
+
+#: classes/system/class-ip2ok-feedback.php:66
+msgid "Did my plugin help you upload your products to the"
+msgstr "Помог ли Вам плагин загрузить продукцию на"
+
+#: classes/system/class-ip2ok-feedback.php:71
+msgid "Yes"
+msgstr "Да"
+
+#: classes/system/class-ip2ok-feedback.php:72
+msgid "No"
+msgstr "Нет"
+
+#: classes/system/class-ip2ok-feedback.php:75
+msgid ""
+"If you don't mind to be contacted in case of problems, please enter your "
+"email address"
+msgstr ""
+"Если вы не возражаете, чтобы с Вами связались в случае возникновения "
+"дополнительных вопросов по поводу работы плагина, то укажите Ваш адрес "
+"электронной почты"
+
+#: classes/system/class-ip2ok-feedback.php:79
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: classes/system/class-ip2ok-feedback.php:82
+msgid ""
+"Enter your text to send me a message (You can write me in Russian or "
+"English). I check my email several times a day"
+msgstr ""
+"Введите текст, чтобы отправить мне сообщение (Вы можете написать мне на "
+"русском или английском языке). Я проверяю свою электронную почту несколько "
+"раз в день"
+
+#: classes/system/class-ip2ok-feedback.php:86
+msgid "Send data"
+msgstr "Отправить данные"
+
+#: classes/system/class-ip2ok-feedback.php:96
+msgid "Please support the project"
+msgstr "Пожалуйста, поддержите проект"
+
+#: classes/system/class-ip2ok-feedback.php:100
+msgid "Thank you for using the plugin"
+msgstr "Спасибо за использование плагина"
+
+#: classes/system/class-ip2ok-feedback.php:104
+msgid "Please help make the plugin better"
+msgstr "Пожалуйста, помогите сделать плагин лучше"
+
+#: classes/system/class-ip2ok-feedback.php:106
+msgid "answering 6 questions"
+msgstr "ответив на 6 вопросов"
+
+#: classes/system/class-ip2ok-feedback.php:110
+msgid "If this plugin useful to you, please support the project one way"
+msgstr "Если этот плагин полезен вам, пожалуйста, поддержите проект"
+
+#: classes/system/class-ip2ok-feedback.php:114
+msgid "Leave a comment on the plugin page"
+msgstr "Оставьте комментарий на странице плагина"
+
+#: classes/system/class-ip2ok-feedback.php:117
+msgid "Support the project financially"
+msgstr "Поддержите проект деньгами. Даже 100 рублей - это помощь"
+
+#: classes/system/class-ip2ok-feedback.php:119
+msgid "Donate now"
+msgstr "Поддержать проект"
+
+#: classes/system/class-ip2ok-feedback.php:123
+msgid "Noticed a bug or have an idea how to improve the quality of the plugin"
+msgstr "Заметили ошибку или есть идея как улучшить качество плагина"
+
+#: classes/system/class-ip2ok-feedback.php:125
+msgid "Let me know"
+msgstr "Напишите мне"
+
+#: classes/system/class-ip2ok-feedback.php:130
+msgid "The author of the plugin Maxim Glazunov"
+msgstr "С уважением, Максим Глазунов"
+
+#: classes/system/class-ip2ok-feedback.php:133
+msgid "Accept orders for individual revision of the plugin"
+msgstr "Принимаю заказы на индивидуальные доработки плагина"
+
+#: classes/system/class-ip2ok-feedback.php:135
+msgid "Leave a request"
+msgstr "Оставить заявку"
+
+#: classes/system/class-ip2ok-feedback.php:175
+msgid "The data has been sent. Thank you"
+msgstr "Данные были отправлены. Спасибо"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:67
+msgid "License data"
+msgstr "Данные лицензии"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:76
+msgid "Order ID"
+msgstr "Номер заказа"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:90
+msgid "Order Email"
+msgstr "Email заказа"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:105
+msgid "Update License Data"
+msgstr "Обновить данные лицензии"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:150
+msgid "License data has been updated"
+msgstr "Лицензионные данные были обновлены"
+
+#: classes/system/class-ip2ok-plugin-form-activate.php:150
+msgid "Refresh this page"
+msgstr "Обновите эту страницу"
+
+#: classes/system/class-ip2ok-plugin-upd.php:101
+msgid "License is active"
+msgstr "Лицензия активна"
+
+#: classes/system/class-ip2ok-plugin-upd.php:105
+#: classes/system/class-ip2ok-plugin-upd.php:142
+msgid "License expired"
+msgstr "Лицензия истекла"
+
+#: classes/system/class-ip2ok-plugin-upd.php:109
+#: classes/system/class-ip2ok-plugin-upd.php:117
+#: classes/system/class-ip2ok-plugin-upd.php:155
+#: classes/system/class-ip2ok-plugin-upd.php:176
+msgid "License data is invalid"
+msgstr "Данные лицензии недействительны"
+
+#: classes/system/class-ip2ok-plugin-upd.php:113
+#: classes/system/class-ip2ok-plugin-upd.php:166
+msgid ""
+"This license cannot be used on this site. The package limit has been exceeded"
+msgstr ""
+"Эта лицензия не может быть использована на этом сайте. Превышен лимит пакета"
+
+#: classes/system/class-ip2ok-plugin-upd.php:143
+#: classes/system/class-ip2ok-plugin-upd.php:202
+msgid "Please"
+msgstr "Пожалуйста"
+
+#: classes/system/class-ip2ok-plugin-upd.php:145
+#: classes/system/class-ip2ok-plugin-upd.php:204
+msgid "purchase a new license"
+msgstr "приобретите новую лицензию"
+
+#: classes/system/class-ip2ok-plugin-upd.php:146
+#: classes/system/class-ip2ok-plugin-upd.php:205
+msgid "to get a discount, use this promo code"
+msgstr "чтобы получить скидку, используйте этот промо-код"
+
+#: classes/system/class-ip2ok-plugin-upd.php:148
+#: classes/system/class-ip2ok-plugin-upd.php:207
+msgid "If you have already done this"
+msgstr "Если вы уже сделали это"
+
+#: classes/system/class-ip2ok-plugin-upd.php:149
+#: classes/system/class-ip2ok-plugin-upd.php:208
+msgid "enter the new license information here"
+msgstr "введите здесь информацию о новой лицензии"
+
+#: classes/system/class-ip2ok-plugin-upd.php:156
+#: classes/system/class-ip2ok-plugin-upd.php:177
+msgid "version features do not work and you can not install updates"
+msgstr "версии не работают, и вы не можете устанавливать обновления"
+
+#: classes/system/class-ip2ok-plugin-upd.php:157
+#: classes/system/class-ip2ok-plugin-upd.php:167
+#: classes/system/class-ip2ok-plugin-upd.php:178
+msgid "Enter your license information"
+msgstr "Введите информацию о лицензии"
+
+#: classes/system/class-ip2ok-plugin-upd.php:158
+#: classes/system/class-ip2ok-plugin-upd.php:168
+#: classes/system/class-ip2ok-plugin-upd.php:179
+msgid "or"
+msgstr "или"
+
+#: classes/system/class-ip2ok-plugin-upd.php:160
+#: classes/system/class-ip2ok-plugin-upd.php:170
+#: classes/system/class-ip2ok-plugin-upd.php:181
+msgid "purchase a new one"
+msgstr "приобретите новую"
+
+#: classes/system/class-ip2ok-plugin-upd.php:200
+msgid "License expires in"
+msgstr "Лицензия истекает через"
+
+#: classes/system/class-ip2ok-plugin-upd.php:201
+msgid "day"
+msgstr "день"
+
+#: classes/system/class-ip2ok-plugin-upd.php:201
+msgctxt "2 days"
+msgid "days"
+msgstr "дня"
+
+#: classes/system/class-ip2ok-plugin-upd.php:201
+msgctxt "5 days"
+msgid "days"
+msgstr "дней"
+
+#: classes/system/class-ip2ok-settings-page.php:112
+msgid "Run Import"
+msgstr "Запустить импорт"
+
+#: classes/system/class-ip2ok-settings-page.php:145
+#: classes/system/class-ip2ok-settings-page.php:181
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#: classes/system/class-ip2ok-settings-page.php:146
+#: classes/system/class-ip2ok-settings-page.php:199
+msgid "API Settings"
+msgstr "Настройки API"
+
+#: classes/system/class-ip2ok-settings-page.php:147
+#: classes/system/class-ip2ok-settings-page.php:252
+msgid "Instruction"
+msgstr "Инструкция"
+
+#: classes/system/class-ip2ok-settings-page.php:206
+msgid "You need to get a token"
+msgstr "Вам нужно получить токен"
+
+#: classes/system/class-ip2ok-settings-page.php:219
+msgid ""
+"Fill in the \"Application ID\", \"Client secret\", save them, and then get a "
+"token by clicking on this link"
+msgstr ""
+"Заполните \"ID приложения\", \"Секретный ключ клиента\", сохраните их, а "
+"затем получите токен, перейдя по этой ссылке"
+
+#: classes/system/class-ip2ok-settings-page.php:221
+msgid "Authorization via OK.ru"
+msgstr "Авторизация через OK.ru"
+
+#: classes/system/class-ip2ok-settings-page.php:222
+msgid "Be sure to click \"allow\". You will then be redirected back"
+msgstr ""
+"Обязательно нажмите кнопку \"разрешить\". Затем вы будете перенаправлены "
+"обратно"
+
+#: classes/system/class-ip2ok-settings-page.php:224
+msgid "You can delete a previously issued token here"
+msgstr "Здесь вы можете удалить ранее выданный токен"
+
+#: classes/system/class-ip2ok-settings-page.php:237
+msgid ""
+"Copy this address and specify it on the \"Settings - API Settings\" page in "
+"the Yandex Market personal account"
+msgstr ""
+"Скопируйте этот адрес и укажите его на странице \"Настройки - Настройки "
+"API\" в личном кабинете Яндекс Маркета"
+
+#: classes/system/class-ip2ok-settings-page.php:256
+msgid "The full version of the instruction can be found"
+msgstr "Полную версию инструкции можно найти"
+
+#: classes/system/class-ip2ok-settings-page.php:259
+msgid "here"
+msgstr "здесь"
+
+#: classes/system/class-ip2ok-settings-page.php:263
+msgid "To access ok.ru API you need"
+msgstr "Для доступа к ok.ru API вам нужно"
+
+#: classes/system/class-ip2ok-settings-page.php:265
+msgid "Create application"
+msgstr "Создать приложение"
+
+#: classes/system/class-ip2ok-settings-page.php:267
+msgid "and get rights for him VALUABLE_ACCESS and GROUP_CONTENT"
+msgstr "и получить для него права VALUABLE_ACCESS и GROUP_CONTENT"
+
+#: classes/system/class-ip2ok-settings-page.php:270
+msgid "For this"
+msgstr "Для этого"
+
+#: classes/system/class-ip2ok-settings-page.php:274
+msgid "Get developer rights"
+msgstr "Получите права разработчика"
+
+#: classes/system/class-ip2ok-settings-page.php:276
+msgid "on this page"
+msgstr "на этой странице"
+
+#: classes/system/class-ip2ok-settings-page.php:280
+msgid "Follow the link and click"
+msgstr "Перейдите по ссылке и нажмите"
+
+#: classes/system/class-ip2ok-settings-page.php:282
+msgid "Add application"
+msgstr "Добавить приложение"
+
+#: classes/system/class-ip2ok-settings-page.php:286
+msgid "Application type "
+msgstr "Тип приложения "
+
+#: classes/system/class-ip2ok-settings-page.php:287
+msgid "Game"
+msgstr "Игра"
+
+#: classes/system/class-ip2ok-settings-page.php:290
+#: classes/system/class-ip2ok-settings-page.php:298
+msgid "Click to"
+msgstr "Нажмите"
+
+#: classes/system/class-ip2ok-settings-page.php:291
+#: classes/system/class-ip2ok-settings-page.php:295
+#: classes/system/class-ip2ok-settings-page.php:299
+msgid "Enable OAuth"
+msgstr "Подключить OAuth"
+
+#: classes/system/class-ip2ok-settings-page.php:294
+#: classes/system/class-ip2ok-settings-page.php:302
+msgid "Allowed list"
+msgstr "Список разрешённых"
+
+#: classes/system/class-ip2ok-settings-page.php:306
+msgid "set point \"Required"
+msgstr "установите точку напротив \"Обязательно"
+
+#: classes/system/class-ip2ok-settings-page.php:313
+msgid "You will receive an email. Copy from it"
+msgstr "Вы получите электронное письмо. Скопируйте из него"
+
+#: classes/system/class-ip2ok-settings-page.php:316
+msgid "Send an email api-support@ok.ru asking for rights"
+msgstr "Отправьте письмо на api-support@ok.ru с просьбой предоставить права"
+
+#: classes/system/class-ip2ok-settings-page.php:318
+#: classes/system/class-ip2ok-settings-page.php:324
+msgid "and"
+msgstr "и"
+
+#: classes/system/class-ip2ok-settings-page.php:319
+msgid "Be sure to include your"
+msgstr "Обязательно укажите свой"
+
+#: classes/system/class-ip2ok-settings-page.php:322
+msgid ""
+"After 1-3 days, when the support service answers, go to your application and "
+"set point required opposite"
+msgstr ""
+"Через 1-3 дня, когда служба поддержки ответит, зайдите в своё приложение и "
+"установите точки \"обязательно\" напротив"
+
+#: classes/system/class-ip2ok-settings-page.php:377
+msgid "My plugins that may interest you"
+msgstr "Мои плагины, которые могут вас заинтересовать"
+
+#: classes/system/class-ip2ok-settings-page.php:381
+msgid "Сreates a XML-feed to upload to Google Merchant Center"
+msgstr "Создает XML-фид для загрузки в Google Merchant Center"
+
+#: classes/system/class-ip2ok-settings-page.php:387
+msgid "Сreates a YML-feed for importing your products to Yandex Market"
+msgstr "Создает YML-фид для импорта ваших товаров на Яндекс Маркет"
+
+#: classes/system/class-ip2ok-settings-page.php:393
+msgid "Imports products from YML to your shop"
+msgstr "Импортирует товары из YML в ваш магазин"
+
+#: classes/system/class-ip2ok-settings-page.php:399
+msgid ""
+"This plugin helps setting up myTarget counter for dynamic remarketing for "
+"WooCommerce"
+msgstr ""
+"Этот плагин помогает настроить счетчик myTarget для динамического "
+"ремаркетинга для WooCommerce"
+
+#: classes/system/class-ip2ok-settings-page.php:405
+msgid "Сreates a XML-feed for importing your products to Hotline"
+msgstr "Создает XML-фид для импорта ваших товаров на Hotline"
+
+#: classes/system/class-ip2ok-settings-page.php:411
+msgid ""
+"This plugin will add a marketing tool that will allow you to give gifts to "
+"the buyer upon purchase"
+msgstr ""
+"Этот плагин добавит маркетинговый инструмент, который позволит вам дарить "
+"подарки покупателю при покупке"
+
+#: classes/system/class-ip2ok-settings-page.php:417
+msgid "With this plugin, you can import products to your group on ok.ru"
+msgstr ""
+"С помощью этого плагина вы можете импортировать товары в свою группу на ok.ru"
+
+#: classes/system/class-ip2ok-settings-page.php:423
+msgid "With this plugin, you can import products to your group on VK.com"
+msgstr ""
+"С помощью этого плагина вы можете импортировать товары в свою группу в VK.com"
+
+#: classes/system/class-ip2ok-settings-page.php:429
+#: classes/system/class-ip2ok-settings-page.php:435
+msgid "Сreates a XML-feed for importing your products to"
+msgstr "Создает XML-фид для импорта ваших товаров на"
+
+#: classes/system/class-ip2ok-wp-list-table.php:73
+msgid "Feed ID"
+msgstr "Фид ID"
+
+#: classes/system/class-ip2ok-wp-list-table.php:74
+msgid "YML File"
+msgstr "Файл YML"
+
+#: classes/system/class-ip2ok-wp-list-table.php:75
+msgid "Automatic file creation"
+msgstr "Автоматическое создание файла"
+
+#: classes/system/class-ip2ok-wp-list-table.php:76
+msgid "Step of export"
+msgstr "Шаг экспорта"
+
+#: classes/system/class-ip2ok-wp-list-table.php:77
+msgid "Generated"
+msgstr "Сгенерирован"
+
+#: classes/system/class-ip2ok-wp-list-table.php:78
+msgid "Products"
+msgstr "Товаров"
+
+#: classes/system/class-ip2ok-wp-list-table.php:99
+msgid "Not created yet"
+msgstr "Ещё не создавался"
+
+#: classes/system/class-ip2ok-wp-list-table.php:110
+msgid "Feed assignment"
+msgstr "Назначение фида"
+
+#: classes/system/class-ip2ok-wp-list-table.php:118
+msgid "Off"
+msgstr "Отключено"
+
+#: classes/system/class-ip2ok-wp-list-table.php:121
+msgid "Every five minutes"
+msgstr "Каждые пять минут"
+
+#: classes/system/class-ip2ok-wp-list-table.php:139
+msgid "Don't start"
+msgstr "Не начинать"
+
+#: classes/system/class-ip2ok-wp-list-table.php:241
+msgid "Edit"
+msgstr "Редактировать"
+
+#: classes/system/class-ip2ok-wp-list-table.php:248
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: classes/system/class-ip2ok-wp-list-table.php:267
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/system/class-ip2ok-wp-list-table.php:288
+msgid "No XML feed found"
+msgstr "XML фиды не найдены"
+
+#: classes/system/class-ip2ok.php:126
+msgid "Import Products to OK.ru"
+msgstr "Импорт товаров в OK.ru"
+
+#: classes/system/class-ip2ok.php:141
+msgid "Individual product settings for export to OK.ru"
+msgstr "Индивидуальные настройки товара для OK.ru"
+
+#: classes/system/class-ip2ok.php:147
+msgid "The settings will appear after installing the PRO version"
+msgstr "Настройки появятся после установки PRO версии"
+
+#: classes/system/class-ip2ok.php:171
+msgid "You must configure the connection to the"
+msgstr "Вы должны настроить подключение к"
+
+#: classes/system/class-ip2ok.php:172
+msgid "Go to settings"
+msgstr "Перейти к настройкам"
+
+#: classes/system/class-ip2ok.php:194 classes/system/class-ip2ok.php:200
+msgid "Import products is running"
+msgstr "Импорт товаров запущен"
+
+#: classes/system/class-ip2ok.php:195 classes/system/class-ip2ok.php:201
+msgid "Step"
+msgstr "Шаг"
+
+#: classes/system/class-ip2ok.php:196
+msgid "Importing a list of categories"
+msgstr "Импорт списка категорий"
+
+#: classes/system/class-ip2ok.php:202
+msgid "Processed products"
+msgstr "Обработано товаров"
+
+#: classes/system/class-ip2ok.php:231
+msgid "Debug"
+msgstr "Отладка"
+
+#: classes/system/class-ip2ok.php:241 classes/system/class-ip2ok.php:242
+msgid "Add Extensions"
+msgstr "Добавить расширение"
+
+#: classes/system/class-ip2ok.php:351
+msgid "Product on ok.ru"
+msgstr "Товар в ok.ru"
+
+#: classes/system/class-ip2ok.php:417
+msgid "70 seconds"
+msgstr "70 секунд"
+
+#: classes/system/class-ip2ok.php:421
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: classes/system/class-ip2ok.php:425
+msgid "6 hours"
+msgstr "6 часов"
+
+#: classes/system/class-ip2ok.php:429
+msgid "1 week"
+msgstr "1 неделя"
+
+#: classes/system/class-ip2ok.php:442
+msgid "More features"
+msgstr "Больше функций"
+
+#: classes/system/class-ip2ok.php:448
+msgid "Settings"
+msgstr "Настройки"
+
+#: extensions.php:15
+msgid "The ability to exclude products from certain categories"
+msgstr "Возможность исключать товары из определенных категорий"
+
+#: extensions.php:16
+msgid "Ability to exclude products by certain tags"
+msgstr "Возможность исключать товары по определенным тегам"
+
+#: extensions.php:17
+msgid "The ability to exclude products at a price"
+msgstr "Возможность исключать товары по цене"
+
+#: extensions.php:18
+msgid "Even more stable work"
+msgstr "Еще более стабильная работа"
+
+#: extensions.php:20
+msgid "Get"
+msgstr "Получить"
+
+#: extensions.php:20
+msgid "Now"
+msgstr "Сейчас"
+
+#: import-products-to-ok-ru.php:38
+msgid "plugin requires a php version of at least"
+msgstr "для работы плагина требуется php версии не ниже"
+
+#: import-products-to-ok-ru.php:39
+msgid "You have the version installed"
+msgstr "У вас установлена версия"
+
+#: import-products-to-ok-ru.php:58
+msgid "requires WooCommerce installed and activated"
+msgstr "требуется, чтобы WooCommerce был установлен и активирован"
+
+#: includes/icopydoc-useful-functions.php:201
+#, php-format
+msgid "No %s is associated with #%d"
+msgstr "Нет %s с таким #%d"
+
+#: includes/icopydoc-useful-functions.php:226
+#, php-format
+msgid "This %s cannot be deleted"
+msgstr "%s не может быть удалён"
+
+#: includes/wc-add-functions.php:94 includes/wc-add-functions.php:118
+msgid "products"
+msgstr "товаров"
+
+#: sandbox.php:8
+msgid "The sandbox is working. The result will appear below"
+msgstr "Песочница работает. Результат появится ниже"
+
+#: sandbox.php:17
+msgid "The sandbox is working correctly"
+msgstr "Песочница работает правильно"
+
+#~ msgid "Client secret"
+#~ msgstr "Секретный ключ клиента"
+
+#, fuzzy
+#~| msgid "The article of the product from the vendor"
+#~ msgid "The \"Remove product from feed\" condition worked"
+#~ msgstr "Артикул товара от поставщика"
+
+#~ msgid "Product ID"
+#~ msgstr "ID товара"
+
+#~ msgid "Product SKU"
+#~ msgstr "Артикул товара"
+
+#~ msgid "Token"
+#~ msgstr "Токен"
+
+#~ msgid "Warehouse ID"
+#~ msgstr "ID склада"
+
+#~ msgid "Manufacturer company"
+#~ msgstr "Компания-производитель"
+
+#~ msgid "Manufacturer countries"
+#~ msgstr "Страна-производитель"
+
+#~ msgid "Vendor"
+#~ msgstr "Производитель"
+
+#~ msgid "Vendor Code"
+#~ msgstr "Артикул"
+
+#~ msgid "Barcodes"
+#~ msgstr "Штрихкоды"
+
+#~ msgid "VAT rate"
+#~ msgstr "Ставка НДС"
+
+#~ msgid ""
+#~ "The rate must correspond to the tax system that you specified when "
+#~ "registering in Yandex Market"
+#~ msgstr ""
+#~ "Ставка должна соответствовать системе налогообложения, которую вы указали "
+#~ "при регистрации в Яндекс Маркете"
+
+#~ msgid "Not subject to VAT"
+#~ msgstr "Не облагается НДС"
+
+#~ msgid "URL your feeds"
+#~ msgstr "URL ваших фидов"
+
+#~ msgid "Files generation status"
+#~ msgstr "Статус генерации файлов"
+
+#, fuzzy
+#~| msgid "created"
+#~ msgid "Create feed"
+#~ msgstr "создан"
+
+#~ msgid "updating"
+#~ msgstr "обновляется"
+
+#~ msgid "created"
+#~ msgstr "создан"
+
+#~ msgid "How to create a YML-feed"
+#~ msgstr "Как создать YML-фид"
+
+#~ msgid ""
+#~ "We are working on automatic file creation. YML will be developed soon"
+#~ msgstr ""
+#~ "Идет автоматическое создание файла. Yml-фид в скором времени будет создан"
+
+#, fuzzy
+#~| msgid ""
+#~| "In order to do that, select another menu entry (which differs from "
+#~| "\"off\") in the box called \"Automatic file creation\". You can also "
+#~| "change values in other boxes if necessary, then press \"Save\"."
+#~ msgid ""
+#~ "In order to do that, select another menu entry (which differs from "
+#~ "\"off\") in the box called \"Automatic file creation\". You can also "
+#~ "change values in other boxes if necessary, then press \"Save\""
+#~ msgstr ""
+#~ "Для этого в поле \"Автоматическое создание файла\" выставите значение, "
+#~ "отличное от значения \"отключено\", при необходимости измените значение "
+#~ "других полей и нажмите \"Сохранить\"."
+
+#, fuzzy
+#~| msgid ""
+#~| "After 1-7 minutes (depending on the number of products), the feed will "
+#~| "be generated and a link will appear instead of this message."
+#~ msgid ""
+#~ "After 1-7 minutes (depending on the number of products), the feed will be "
+#~ "generated and a link will appear instead of this message"
+#~ msgstr ""
+#~ "Через 1 - 7 минут (зависит от числа товаров), фид будет сгенерирован и "
+#~ "вместо данного сообщения появится ссылка."
+
+#, fuzzy
+#~| msgid "Your YML feed here"
+#~ msgid "Your feed here"
+#~ msgstr "Ваш фид здесь"
+
+#, fuzzy
+#~| msgid "Font size"
+#~ msgid "File size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "Main parameters"
+#~ msgstr "Основные параметры"
+
+#~ msgid "Shop name"
+#~ msgstr "Название магазина"
+
+#~ msgid "Required element"
+#~ msgstr "Обязательный элемент"
+
+#~ msgid "The short name of the store should not exceed 20 characters"
+#~ msgstr "Короткое название магазина, должно содержать не более 20 символов"
+
+#~ msgid "Export Yandex Market"
+#~ msgstr "Экспорт Yandex Market"
+
+#~ msgid "Disable notices from"
+#~ msgstr "Отключить уведомления от"
+
+#~ msgid "Did my plugin help you"
+#~ msgstr "Помог ли вам мой плагин"
+
+#~ msgid "Plugin documentation"
+#~ msgstr "Документация плагина"
+
+#~ msgid "From your myTarget account"
+#~ msgstr "Из вашего аккаунта myTarget"
+
+#~ msgid "Enable dynamic remarketing"
+#~ msgstr "Включить динамический ремаркетинг"
+
+#~ msgid "Default value"
+#~ msgstr "Значение по умолчанию"
+
+#~ msgid "Location of the counter code"
+#~ msgstr "Расположение кода счетчика"
+
+#~ msgid "Footer"
+#~ msgstr "Футер"
+
+#~ msgid "Header"
+#~ msgstr "Хедер"
+
+#~ msgid "myTarget settings"
+#~ msgstr "myTarget настройки"
+
+#~ msgid "Appearance"
+#~ msgstr "Внешний вид"
+
+#~ msgid "Gift for any product"
+#~ msgstr "Подарок для всех товаров"
+
+#~ msgid "Select the products that the user will receive as a gift"
+#~ msgstr "Выберите товары, которые пользователь получит в подарок"
+
+#~ msgid "Text content in cart"
+#~ msgstr "Содержание текста в корзине"
+
+#~ msgid "Text in cart under product name"
+#~ msgstr "Текст в корзине под названием товара"
+
+#~ msgid "If the contents of the cart no longer meet the conditions"
+#~ msgstr "Если содержимое корзины больше не соответствует условиям"
+
+#~ msgid "Full price for the gift"
+#~ msgstr "Полная стоимость подарка"
+
+#~ msgid "Remove Gift"
+#~ msgstr "Удалить подарок"
+
+#~ msgid "Gift Terms"
+#~ msgstr "Условия получения подарка"
+
+#~ msgid "Cart"
+#~ msgstr "Корзина"
+
+#~ msgid "total price"
+#~ msgstr "итоговая цена"
+
+#~ msgid "subtotal price"
+#~ msgstr "сумма подытога"
+
+#~ msgid "Numbers only"
+#~ msgstr "Только числа"
+
+#~ msgid "Cart contains at least one product whose price exceeds"
+#~ msgstr "Корзина содержит по крайней мере один товар, дороже"
+
+#~ msgid "Gift only on certain days"
+#~ msgstr "Подарок только в определенные дни"
+
+#~ msgid "Tuesday"
+#~ msgstr "Вторник"
+
+#~ msgid "Wednesday"
+#~ msgstr "Среда"
+
+#~ msgid "Thursday"
+#~ msgstr "Четверг"
+
+#~ msgid "Friday"
+#~ msgstr "Пятница"
+
+#~ msgid "Saturday"
+#~ msgstr "Суббота"
+
+#~ msgid "Sunday"
+#~ msgstr "Воскресенье"
+
+#~ msgid "Gift only at certain hours"
+#~ msgstr "Подарок только в определенные часы"
+
+#~ msgid "Text \"gift for purchase\" in the cart"
+#~ msgstr "Текст \"подарок при покупке\" в корзине"
+
+#~ msgid "Text status"
+#~ msgstr "Статус текста"
+
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgid "Hide"
+#~ msgstr "Скрыть"
+
+#~ msgid "Gift Information"
+#~ msgstr "Информация о подарке"
+
+#~ msgid "Text content"
+#~ msgstr "Содержание текста"
+
+#~ msgid "Text color"
+#~ msgstr "Цвет текста"
+
+#~ msgid "Integer"
+#~ msgstr "Целые числа"
+
+#~ msgid "Text on buttons in the cart"
+#~ msgstr "Текст на кнопках в корзине"
+
+#~ msgid "Button \"Remove/accept gifts\" in the cart"
+#~ msgstr "Кнопка \"Удалить/принять подарки\" в корзине"
+
+#~ msgid "Text in cart on button"
+#~ msgstr "Текст в корзине на кнопке"
+
+#~ msgid "Remove gifts"
+#~ msgstr "Убрать подарки"
+
+#~ msgid "Accept gifts"
+#~ msgstr "Принять подарки"
+
+#~ msgid "Text \"gift for purchase\" in the product card"
+#~ msgstr "Текст \"подарок при покупке\" в карточке товара"
+
+#~ msgid "Settings Gift"
+#~ msgstr "Настройки Подарка"
+
+#~ msgid "Add Gift"
+#~ msgstr "Добавить подарок"
+
+#~ msgid "Here you can customize the gifts that the user will receive"
+#~ msgstr "Здесь вы можете настроить подарки, которые получит пользователь"
+
+#~ msgid "Two for the price of one"
+#~ msgstr "Два по цене одного"
+
+#~ msgid "How it works"
+#~ msgstr "Как это работает"
+
+#~ msgid "Two products for the price of one"
+#~ msgstr "Два товара по цене одного"
+
+#~ msgid "discount for one item"
+#~ msgstr "скидка за одну единицу товара"
+
+#~ msgid "One item for free. See details below"
+#~ msgstr "Одна единица товара бесплатно. Подробности ниже"
+
+#~ msgid "Disable notices from Gift upon purchase for WooCommerce"
+#~ msgstr "Блокировать уведомления от Gift upon purchase for WooCommerce"
+
+#~ msgid "Reset plugin settings"
+#~ msgstr "Сбросить настройки плагина"
+
+#~ msgid "Reset plugin settings can be useful in the event of a problem"
+#~ msgstr ""
+#~ "Сброс настроек плагина может быть полезен в случае возникновения проблем"
+
+#~ msgid "Site URL"
+#~ msgstr "УРЛ сайта"
+
+#~ msgid "Error reporting"
+#~ msgstr "Отчет об ошибках"
+
+#~ msgid "And if you want a response, be sure to include your email address"
+#~ msgstr ""
+#~ "И если вы хотите получить ответ, не забудьте указать свой адрес "
+#~ "электронной почты"
+
+#~ msgid "WooCommerce is not active!"
+#~ msgstr "Для работы требуется плагин WooCommerce!"
+
+#~ msgid "The settings have been reset"
+#~ msgstr "Настройки были сброшены"
+
+#~ msgid "gift"
+#~ msgstr "подарок"
+
+#~ msgid "Cart contains at least one product from the following categories"
+#~ msgstr "Корзина содержит по крайней мере один товар из следующих категорий"
+
+#~ msgid "Gift"
+#~ msgstr "Подарок"
+
+#~ msgid "Sale"
+#~ msgstr "Скидка"
+
+#~ msgid "Gift upon purchase for WooCommerce"
+#~ msgstr "Gift upon purchase for WooCommerce"
+
+#~ msgid "URL YML-feed"
+#~ msgstr "УРЛ YML-фида"
+
+#~ msgid "Is the multisite mode enabled?"
+#~ msgstr "Включен ли режим multisite?"
+
+#~ msgid "Exporter Yandex Market"
+#~ msgstr "Экспортер Yandex Market"
+
+#~ msgid ""
+#~ "For the plugin to function correctly, you need a version of WooCommerce "
+#~ "3.0 and higher! You have version "
+#~ msgstr ""
+#~ "Для правильной работы плагина необходима версия WooCommerce 3.0 и выше! У "
+#~ "Вас установлена версия "
+
+#~ msgid " installed. Please, update WooCommerce"
+#~ msgstr " Пожалуйста, обновите WooCommerce"
+
+#~ msgid "Learn More"
+#~ msgstr "Подробнее"
+
+#~ msgid ""
+#~ "Most likely, the plugin does not work correctly because you turned off "
+#~ "the CRON with the help of the "
+#~ msgstr ""
+#~ "Скорее всего,плагин работает неправильно, потому что вы выключили CRON "
+#~ "при помощи "
+
+#~ msgid ""
+#~ "is an extension that allows you to increase sales by unloading Promotions "
+#~ "(promos, gifts) on the Yandex Market"
+#~ msgstr ""
+#~ "- это расширение, которое позволяет увеличить продажи за счет выгрузки "
+#~ "Промоакций (promos, gifts) на Яндекс Маркет"
+
+#~ msgid "Thank you for purchasing the Promos Export extension"
+#~ msgstr "Спасибо за использование плагина Promos Export"
+
+#~ msgid "Read usage case"
+#~ msgstr "Посмотреть пример использования"
+
+#~ msgid "Go to"
+#~ msgstr "Переходи на"
+
+#~ msgid "keep the advertising budget"
+#~ msgstr "экономь рекламный бюджет"
+
+#~ msgid "on Yandex"
+#~ msgstr "на Яндексе"
+
+#~ msgid "Thank you for purchasing the Yml for Yandex Market Pro extension"
+#~ msgstr "Спасибо за использование плагина Yml for Yandex Market Pro"
+
+#~ msgid "Read usage tips"
+#~ msgstr "Прочитать советы по использованию"
+
+#~ msgid ""
+#~ "Thank you for purchasing the Yml for Yandex Market Prom Export extension"
+#~ msgstr "Спасибо за использование плагина Yml for Yandex Market Prom Export"
+
+#~ msgid "Select feed"
+#~ msgstr "Выбрать фид"
+
+#~ msgid "The refresh interval on your feed"
+#~ msgstr "Интервал обновления вашего фида"
+
+#~ msgid "Update feed when updating products"
+#~ msgstr "Обновить фид при обновлении карточки товара"
+
+#~ msgid "Whot export"
+#~ msgstr "Что экспортировать"
+
+#~ msgid "Simple & Variable products"
+#~ msgstr "Вариативные и обычные товары"
+
+#~ msgid "Only simple products"
+#~ msgstr "Только обычные товары"
+
+#~ msgid "Company name"
+#~ msgstr "Наименование компании"
+
+#~ msgid "Full name of the company that owns the store"
+#~ msgstr "Полное наименование компании, владеющей магазином"
+
+#~ msgid "What kind of products do you sell?"
+#~ msgstr "Какие товары вы продаете?"
+
+#~ msgid "Electronics"
+#~ msgstr "Электроника"
+
+#~ msgid "Clothes and shoes"
+#~ msgstr "Одежда и обувь"
+
+#~ msgid "Auto parts"
+#~ msgstr "Автозапчасти"
+
+#~ msgid "Sporting goods"
+#~ msgstr "Спортивные товары"
+
+#~ msgid "Goods for pets"
+#~ msgstr "Товары для домашних животных"
+
+#~ msgid "Sex shop (Adult products)"
+#~ msgstr "Секс-шоп (товары для взрослых)"
+
+#~ msgid "Books"
+#~ msgstr "Книги"
+
+#~ msgid "Construction Materials"
+#~ msgstr "Строительные материалы"
+
+#~ msgid "Other"
+#~ msgstr "Прочее"
+
+#~ msgid "Specify the main category"
+#~ msgstr "Укажите основную категорию"
+
+#~ msgid "Adult Market"
+#~ msgstr "Магазин для взрослых"
+
+#~ msgid "Optional element"
+#~ msgstr "Необязательный элемент"
+
+#~ msgid "The value affects the speed of file creation"
+#~ msgstr "Значение влияет на скорость создания YML фида"
+
+#~ msgid ""
+#~ "If you have any problems with the generation of the file - try to reduce "
+#~ "the value in this field"
+#~ msgstr ""
+#~ "Если у вас возникли проблемы с генерацией файла - попробуйте уменьшить "
+#~ "значение в данном поле"
+
+#~ msgid "More than 500 can only be installed on powerful servers"
+#~ msgstr "Более 500 можно устанавливать только на мощных серверах"
+
+#~ msgid "Categories of variable products for which group_id is not allowed"
+#~ msgstr "Категории вариативных товаров для которых запрещен group_id"
+
+#~ msgid ""
+#~ "According to Yandex Market rules in this field you need to mark ALL "
+#~ "categories of products not related to \"Clothes, Shoes and Accessories\", "
+#~ "\"Furniture\", \"Cosmetics, perfumes and care\", \"Baby products\", "
+#~ "\"Accessories for portable electronics\". Ie categories for which it is "
+#~ "forbidden to use the attribute group_id"
+#~ msgstr ""
+#~ "Согласно правилам Яндекс Маркет в этом поле Вам необходимо отметить ВСЕ "
+#~ "категории товаров не относящиеся к \"Одежда, обувь и аксессуары\", "
+#~ "\"Мебель\", \"Косметика, парфюмерия и уход\", \"Детские товары\", "
+#~ "\"Аксессуары для портативной электроники\". Т.е категории, для которых "
+#~ "запрещено использовать атрибут group_id"
+
+#~ msgid "Add the following attributes to the name"
+#~ msgstr "Подставлять в название след атрибуты"
+
+#~ msgid ""
+#~ "It works only for variable products that are not in the category "
+#~ "\"Clothes, Shoes and Accessories\", \"Furniture\", \"Cosmetics, perfumes "
+#~ "and care\", \"Baby products\", \"Accessories for portable electronics\""
+#~ msgstr ""
+#~ "Работает только для вариативных товаров, входящих в категории не "
+#~ "относящихся к \"Одежда, обувь и аксессуары\", \"Мебель\", \"Косметика, "
+#~ "парфюмерия и уход\", \"Детские товары\", \"Аксессуары для портативной "
+#~ "электроники\""
+
+#~ msgid "Separator options"
+#~ msgstr "Варианты разделителя"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "Remove default.png from YML"
+#~ msgstr "Удалить default.png из YML"
+
+#~ msgid "Skip products without pictures"
+#~ msgstr "Пропустить товары без картинок"
+
+#~ msgid "Price and delivery"
+#~ msgstr "Цена и доставка"
+
+#~ msgid "Pickup"
+#~ msgstr "Самовывоз"
+
+#~ msgid "True"
+#~ msgstr "Да"
+
+#~ msgid "False"
+#~ msgstr "Нет"
+
+#~ msgid "Option to get order from pickup point"
+#~ msgstr "Возможность самовывоза из пунктов выдачи"
+
+#~ msgid "Price from"
+#~ msgstr "Цена от"
+
+#~ msgid "Apply the setting Price from"
+#~ msgstr "Применить параметр Цена от ко всем товарам"
+
+#~ msgid "attribute of"
+#~ msgstr "атрибута"
+
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgid "Delivery"
+#~ msgstr "Доставка"
+
+#~ msgid ""
+#~ "The delivery item must be set to false if the item is prohibited to sell "
+#~ "remotely (jewelry, medicines)"
+#~ msgstr ""
+#~ "Элемент delivery должен обязательно иметь значение false, если товар "
+#~ "запрещено продавать дистанционно (ювелирные изделия, лекарственные "
+#~ "средства)."
+
+#~ msgid "Use delivery-options"
+#~ msgstr "Использовать delivery-options"
+
+#~ msgid "Delivery cost"
+#~ msgstr "Стоимость доставки"
+
+#~ msgid "of attribute"
+#~ msgstr "атрибута"
+
+#~ msgid "Delivery days"
+#~ msgstr "Срок доставки"
+
+#~ msgid "The time"
+#~ msgstr "Время"
+
+#~ msgid "The time in which you need to place an order to get it at this time"
+#~ msgstr ""
+#~ "Время, до которого нужно сделать заказ, чтобы получить его в этот срок"
+
+#~ msgid "Add a second delivery methods"
+#~ msgstr "Добавить второй метод доставки"
+
+#~ msgid "Add a second delivery methods to"
+#~ msgstr "Добавление второго способа доставки в"
+
+#~ msgid "Use Auto discounts"
+#~ msgstr "Применить автоматический расчет скидок"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Substitute from SKU"
+#~ msgstr "Подставлять из Артикул"
+
+#~ msgid "Shelf life / service life"
+#~ msgstr "Срок годности / срок службы"
+
+#~ msgid "Shelf life / service life. expiry date / service life"
+#~ msgstr ""
+#~ "Срок годности / срок службы либо дата истечения срока годности / срока "
+#~ "службы"
+
+#~ msgid "Mark downloadable products"
+#~ msgstr "Помечать скачиваемые товары"
+
+#~ msgid "On"
+#~ msgstr "Включить"
+
+#~ msgid "Age"
+#~ msgstr "Возраст"
+
+#~ msgid "Model"
+#~ msgstr "Модель"
+
+#~ msgid "Considered obsolete. Do not use the Yandex Market"
+#~ msgstr "Считается устаревшим. Не используется Яндекс Маркетом"
+
+#~ msgid "Substitute from"
+#~ msgstr "Подставлять из"
+
+#~ msgid "Country of origin"
+#~ msgstr "Страна производитель"
+
+#~ msgid ""
+#~ "This element indicates the country where the product was manufactured"
+#~ msgstr "Элемент предназначен для указания страны производства товара"
+
+#~ msgid "A list of possible values"
+#~ msgstr "Список возможных значений"
+
+#~ msgid "Add to all"
+#~ msgstr "Добавить всем"
+
+#~ msgid ""
+#~ "This element is used for products that have an official manufacturer's "
+#~ "warranty"
+#~ msgstr ""
+#~ "Элемент предназначен для отметки товаров, имеющих официальную гарантию "
+#~ "производителя"
+
+#~ msgid "Product has an official warranty"
+#~ msgstr "Товар имеет официальную гарантию"
+
+#~ msgid "Sales notes"
+#~ msgstr "Примечание"
+
+#~ msgid "Attention!"
+#~ msgstr "Внимание!"
+
+#~ msgid "Read more about how this works"
+#~ msgstr "Подробнее о том, как это работает"
+
+#~ msgid "Disable use of Sales notes"
+#~ msgstr "Запретить выгрузку Sales notes"
+
+#~ msgid ""
+#~ "If the attribute from the select is absent from the product, then "
+#~ "substitute"
+#~ msgstr "Если атрибут из селекта выше отсутствует у товара, то подставить"
+
+#~ msgid ""
+#~ "The text may be up to 50 characters in length. Also in the item is "
+#~ "forbidden to specify the terms of delivery and price reduction (discount "
+#~ "on merchandise)"
+#~ msgstr ""
+#~ "Не более 50 символов. Также в элементе запрещено указывать условия "
+#~ "доставки и снижение цены (скидку на товар)"
+
+#~ msgid "Store"
+#~ msgstr "Запас"
+
+#~ msgid "true"
+#~ msgstr "да"
+
+#~ msgid "false"
+#~ msgstr "нет"
+
+#~ msgid "the product cannot be purchased in retail stores"
+#~ msgstr "товар нельзя купить без предварительного заказа"
+
+#~ msgid "Include these attributes in the values Param"
+#~ msgstr "Включить эти атрибуты в фид"
+
+#~ msgid "Hint"
+#~ msgstr "Совет"
+
+#~ msgid ""
+#~ "To select multiple values, hold down the (ctrl) button on Windows or "
+#~ "(cmd) on a Mac. To deselect, press and hold (ctrl) or (cmd), click on the "
+#~ "marked items"
+#~ msgstr ""
+#~ "Чтобы выбрать несколько значений, удерживайте нажатой кнопку (ctrl) в "
+#~ "Windows или (cmd) на Mac. Чтобы отменить выбор, нажмите и удерживайте "
+#~ "(ctrl) или (cmd), нажмите на отмеченные элементы"
+
+#~ msgid ""
+#~ "We are working on automatic file creation. YML will be developed soon."
+#~ msgstr ""
+#~ "Идет автоматическое создание файла. Yml-фид в скором времени будет создан."
+
+#~ msgid ""
+#~ "By clicking on \"Save\" you will overwrite the upload file for Yandex "
+#~ "Market."
+#~ msgstr "Нажав «Сохранить», вы перезапишете YML для Yandex Market."
+
+#~ msgid ""
+#~ "Please note that Yandex Market checks YML no more than 3 times a day! "
+#~ "This means that the changes on the Yandex Market are not instantaneous!"
+#~ msgstr ""
+#~ "Обратите внимание, что Yandex Market проверяет YML не чаще 3-х раз в "
+#~ "день! Это означает, что изменения на Yandex Market не мгновенны!"
+
+#~ msgid "Extensions for Yml for Yandex Market"
+#~ msgstr "Расширения для Yml for Yandex Market"
+
+#~ msgid "Ability to assign labels as categories"
+#~ msgstr "Возможность назначать метки в качестве категорий"
+
+#~ msgid "Ability to download multiple images for products instead of one"
+#~ msgstr ""
+#~ "Возможность загрузки нескольких изображений для товара вместо одного"
+
+#~ msgid ""
+#~ "Ability to specify a product with a category tree identical to the "
+#~ "category tree on the Yandex Market"
+#~ msgstr ""
+#~ "Возможность прописать товару дерево категорий идентичное дереву категорий "
+#~ "на Яндекс Маркет"
+
+#~ msgid ""
+#~ "Ability to remove the Visual Composer shortcodes from the description"
+#~ msgstr "Возможность удалять шорткоды Visual Composer из описания"
+
+#~ msgid ""
+#~ "The ability to add one attribute to the beginning of the product name, "
+#~ "add three attributes to the end of the product name. The function may be "
+#~ "needed when unloading goods on the site rozetka.com.ua and similar"
+#~ msgstr ""
+#~ "Возможность добавить один атрибут в начало названия товара и три атрибута "
+#~ "в конец названия товара. Функция может понадобиться при выгрузке товаров "
+#~ "на сайт rozetka.com.ua и аналогичные"
+
+#~ msgid "Support UTM tags"
+#~ msgstr "Поддержка UTM меток"
+
+#~ msgid "any text you specify, for example"
+#~ msgstr "любой текст, который вы укажете, например"
+
+#~ msgid "Category ID or Product ID"
+#~ msgstr "ID категории или ID товара"
+
+#~ msgid "Dimension Grid Support. For example"
+#~ msgstr "Поддержка размерной сетки. Например"
+
+#~ msgid "Get Yml for Yandex Market Pro Now"
+#~ msgstr "Получить Yml for Yandex Market Pro сейчас"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for special attributes needed "
+#~ "to export products on prom.ua"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин поддержку специальных атрибутов, "
+#~ "необходимых для экспорта товаров на prom.ua"
+
+#~ msgid "Read more on Prom.ua"
+#~ msgstr "Прочитать подробности на prom.ua"
+
+#~ msgid "Get Yml for Yandex Market Prom Export Now"
+#~ msgstr "Получить Yml for Yandex Market Prom Export сейчас"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for special attributes needed "
+#~ "to export products on"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин поддержку специальных атрибутов, "
+#~ "необходимых для экспорта товаров на"
+
+#~ msgid "Read more on rozetka.com.ua"
+#~ msgstr "Прочитать подробности на rozetka.com.ua"
+
+#~ msgid "Get Yml for Yandex Market Rozetka Export Now"
+#~ msgstr "Получить Yml for Yandex Market Rozetka Export сейчас"
+
+#~ msgid ""
+#~ "This extension allows you to transfer information about various stores "
+#~ "promotions, such as"
+#~ msgstr ""
+#~ "Это расширение позволяет передавать информацию о различных рекламных "
+#~ "акциях магазинов, таких как"
+
+#~ msgid "Promo Code"
+#~ msgstr "Промо код"
+
+#~ msgid "Flash Discount"
+#~ msgstr "Специальная цена"
+
+#~ msgid "N+M"
+#~ msgstr "N+M"
+
+#~ msgid "Very important"
+#~ msgstr "Очень важно"
+
+#~ msgid ""
+#~ "The extension allows you to send information about the \"Gift at "
+#~ "Purchase\" to Yandex Market (see screenshot)"
+#~ msgstr ""
+#~ "Расширение позволяет передавать на Яндекс Маркет информацию о \"Подарок "
+#~ "при покупке\" (см скриншот)"
+
+#~ msgid ""
+#~ "that the person is entitled to a gift for purchase! Otherwise YOU WILL "
+#~ "NOT TAKE A MODERATION on Yandex Market"
+#~ msgstr ""
+#~ "о том, что за покупку человеку полагается подарок! Если этого не сделать, "
+#~ "то Вы НЕ ПРОЙДЕТЕ МОДЕРАЦИЮ на Яндекс Маркете"
+
+#~ msgid "Sure to"
+#~ msgstr "Обязательно"
+
+#~ msgid ""
+#~ "BEFORE PURCHASING this extension - add relevant information to your site"
+#~ msgstr ""
+#~ "ПЕРЕД ПОКУПКОЙ этого расширения добавьте соответствующую информацию на "
+#~ "Ваш сайт"
+
+#~ msgid "Get Yml for Yandex Market Promos Export Now"
+#~ msgstr "Получить Yml for Yandex Market Promos Export сейчас"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for a special type of export by "
+#~ "Yandex Market for books"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин специальный вид экспорта Yandex Market "
+#~ "для книг"
+
+#~ msgid "Get Yml for Yandex Market Book Export Now"
+#~ msgstr "Получить Yml for Yandex Market Book Export сейчас"
+
+#~ msgid "Extensions"
+#~ msgstr "Расширения"
+
+#~ msgid "Settings delivery options for Yandex Market"
+#~ msgstr "Настройки параметров доставки для Яндекс Маркета"
+
+#~ msgid "Here you can set up individual options terms for this product"
+#~ msgstr ""
+#~ "Здесь вы можете настроить индивидуальные условия доставки для данного "
+#~ "товара"
+
+#~ msgid "Here you can configure the pickup conditions for this product"
+#~ msgstr ""
+#~ "Здесь вы можете настроить индивидуальные условия самовывоза для данного "
+#~ "товара"
+
+#~ msgid "Pickup cost"
+#~ msgstr "Стоимость самовывоза"
+
+#~ msgid "Pickup days"
+#~ msgstr "Срок самовывоза"
+
+#~ msgid "Bid values"
+#~ msgstr "Значения ставки"
+
+#~ msgid "Сondition"
+#~ msgstr "Состояние товара"
+
+#~ msgid ""
+#~ "Bid values in your price list. Specify the bid amount in Yandex cents: "
+#~ "for example, the value 80 corresponds to the bid of 0.8 Yandex units. The "
+#~ "values must be positive integers"
+#~ msgstr ""
+#~ "Значения ставок в прайс-листе. Указывайте размер ставки в условных "
+#~ "центах: например, значение 80 соответствует ставке 0,8 у. е. Значения "
+#~ "должны быть целыми и положительными числами"
+
+#~ msgid "Like New"
+#~ msgstr "Как новый"
+
+#~ msgid "Used"
+#~ msgstr "Подержанный"
+
+#~ msgid "Reason"
+#~ msgstr "Причина"
+
+#~ msgid "ID of the loan program"
+#~ msgstr "ID кредитной программы"
+
+#~ msgid "Progress"
+#~ msgstr "Прогресс"
+
+#~ msgid "from"
+#~ msgstr "из"
+
+#~ msgid ""
+#~ "If the progress indicators have not changed within 20 minutes, try "
+#~ "reducing the \"Step of export\" in the plugin settings"
+#~ msgstr ""
+#~ "Если индикаторы прогресса не изменились в течение 20 минут, попробуйте "
+#~ "уменьшить \"Шаг экспорта\" в настройках плагина"
+
+#~ msgid "Prior to the completion of less than 70 seconds"
+#~ msgstr "До завершения менее 70 секунд"
+
+#~ msgid "You are using the"
+#~ msgstr "Вы используете"
+
+#~ msgid "plugin of obsolete version"
+#~ msgstr "плагин устаревшей версии"
+
+#~ msgid ""
+#~ "This version does not know how to work with multiple YML-feeds. I highly "
+#~ "recommend upgrading the"
+#~ msgstr ""
+#~ "Эта версия не знает, как работать с несколькими YML-фидами. Я "
+#~ "настоятельно рекомендую обновить"
+
+#~ msgid "version to"
+#~ msgstr "версию до"
+
+#~ msgid "or higher"
+#~ msgstr "или выше"
+
+#~ msgid "Plugin has been updated to version"
+#~ msgstr "Плагин был обновлен до версии"
+
+#~ msgid "Please resave the plugin settings"
+#~ msgstr "Пожалуйста, пересохраните настройки плагина"
+
+#~ msgid ""
+#~ "Creating the feed is running. You can continue working with the website"
+#~ msgstr "Создание YML-фида запущено. Вы можете продолжить работу с сайтом"
+
+#~ msgid "Substitute from Perfect Woocommerce Brands"
+#~ msgstr "Подставлять из Perfect Woocommerce Brands"
+
+#~ msgid "Generate your 1st YML feed!"
+#~ msgstr "Создайте ваш 1-й YML фид!"
+
+#~ msgid "Go to Yml for Yandex Market Pro and"
+#~ msgstr "Переходи на Yml for Yandex Market Pro и"
+
+#~ msgid "Download the"
+#~ msgstr "Загрузите"
+
+#~ msgid "extension"
+#~ msgstr "расширение"
+
+#~ msgid "All"
+#~ msgstr "Всё"
+
+#~ msgid "On the plugin settings page click on the"
+#~ msgstr "На странице настроек плагина нажмите на кнопку"
+
+#~ msgid "In the absence of a substitute"
+#~ msgstr "Если отсутствует, то подставить"
+
+#~ msgid "Expiry"
+#~ msgstr "Окончание"
+
+#~ msgid "Sales notes will be added to all items, if you complete this field"
+#~ msgstr "Sales notes будет добавлен ко всем товарам, если заполнить это поле"
+
+#~ msgid "Work is under way on this extension"
+#~ msgstr "Ведется работа над этим расширением"
+
+#~ msgid "If you have any ideas how to make the plugin better"
+#~ msgstr "Если у вас есть идеи, как сделать плагин лучше"
+
+#~ msgid "Perhaps, it is your idea that will enter this extension"
+#~ msgstr "Возможно, ваша идея войдет в данное расширение"
+
+#~ msgid "Get Special Offer Now"
+#~ msgstr "Получите специальное предложение сейчас"
+
+#~ msgid "Adult store?"
+#~ msgstr "Магазин для взрослых?"
+
+#~ msgid "Settings Maps for WP"
+#~ msgstr "Настройки Maps for WP"
+
+#~ msgid "Text when you hover over a point"
+#~ msgstr "Текст при наведении на точку"
+
+#~ msgid "The image point on the map (36×36)"
+#~ msgstr "Иконка точки на карте (36×36)"
+
+#~ msgid "Zoom map with many points"
+#~ msgstr "Масштаб карты с множеством точек"
+
+#~ msgid "Latitude center map with many points"
+#~ msgstr "Широта центра карты с множеством точек"
+
+#~ msgid "Longitude center map with many points"
+#~ msgstr "Долгота карты с множеством точек"
+
+#~ msgid "Zoom map with one point"
+#~ msgstr "Масштаб карты с одной точкой"
+
+#~ msgid "Latitude map with one point"
+#~ msgstr "Широтка карты с одной точкой"
+
+#~ msgid "Longitude map with one point"
+#~ msgstr "Долготак карты с одной точкой"
+
+#~ msgid "Location"
+#~ msgstr "Местоположение"
+
+#~ msgid "Latitude"
+#~ msgstr "Широта"
+
+#~ msgid "Longitude"
+#~ msgstr "Долгота"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Region"
+#~ msgstr "Регион"
+
+#~ msgid "Subadministrative"
+#~ msgstr "Район"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "The exact address"
+#~ msgstr "Точный адрес"
+
+#~ msgid "Container Yandex Maps"
+#~ msgstr "Блок Yandex Maps"
